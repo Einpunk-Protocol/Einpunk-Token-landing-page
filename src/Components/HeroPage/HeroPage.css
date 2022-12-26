@@ -5,6 +5,10 @@
     position: absolute;
 }
 
+.heropage-text {
+    color: #FFF;
+}
+
 .line {
     margin: auto;
     display: block;
