@@ -5,6 +5,10 @@
     position: absolute;
 }
 
+.heropage-details {
+    display: flex;
+}
+
 .heropage-text {
     color: #FFF;
 }
@@ -12,4 +16,8 @@
 .line {
     margin: auto;
     display: block;
+}
+
+.heropage-image img {
+    width: 600px;
 }
