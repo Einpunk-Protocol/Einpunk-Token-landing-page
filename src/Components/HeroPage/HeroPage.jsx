@@ -10,6 +10,11 @@ const HeroPage = () => {
         <div className='heropage-details'>
             <div className='heropage-text'>
                 <h2>The World's Fastest Growing <br/> Token Protocol</h2>
+                <p>A highly-curated platform for creating, collecting and trading unique <br/>
+NFTs. Trade with confidence on the world’s fastest and most secure <br/>
+crypto exchange
+
+</p>
             </div>
             <div className='heropage-image'>
                 <img src={EinpunkIllustration} alt="Einpunk Illustration" />
