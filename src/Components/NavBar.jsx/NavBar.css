@@ -1,0 +1,22 @@
+.navbar-container {
+    display: flex;
+    height: 93px;
+    background: #000;
+    gap: 50%;
+}
+
+.navbar-logo img {
+    width: 55px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.menu-list ul {
+    display: flex;
+}
+
+.menu-list ul li {
+    list-style: none;
+    margin: 10px 20px;
+    color: #FFF;
+}
