@@ -1,9 +1,10 @@
  import './App.css';
+ import NavBar from './Components/NavBar.jsx/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Einpunk Token Landing Page</h1>
+    <div>
+      <NavBar/>
     </div>
   );
 }
