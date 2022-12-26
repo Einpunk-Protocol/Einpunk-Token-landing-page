@@ -7,10 +7,14 @@
 
 .heropage-details {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
 }
 
 .heropage-text {
     color: #FFF;
+    margin-top: 150px;
+    margin-left: 60px;
 }
 
 .line {
