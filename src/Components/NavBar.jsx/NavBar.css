@@ -2,12 +2,12 @@
     display: flex;
     height: 93px;
     background: #000;
-    gap: 50%;
+    gap: 55%;
 }
 
 .navbar-logo img {
     width: 55px;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-top: 15px;
 }
 
