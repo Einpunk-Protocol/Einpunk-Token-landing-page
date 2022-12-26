@@ -8,7 +8,7 @@
 .heropage-details {
     display: flex;
     flex-wrap: wrap;
-    gap: 10%;
+    gap: 5%;
     margin-top: 100px;
 }
 
@@ -16,6 +16,7 @@
     color: #FFF;
     margin-top: 100px;
     margin-left: 60px;
+    font-size: 20px;
 }
 
 .line {
