@@ -3,7 +3,7 @@
 function App() {
   return (
     <div className="App">
-      <h1>Eusd Landing Page</h1>
+      <h1>Einpunk Token Landing Page</h1>
     </div>
   );
 }
