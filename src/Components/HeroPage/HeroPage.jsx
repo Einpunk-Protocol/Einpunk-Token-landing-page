@@ -1,7 +1,7 @@
 import React from 'react'
 import "./HeroPage.css"
 import Line from "../../Assets/images/Line.png"
-import EinpunkIllustration from "../../Assets/images/einpunk_illustration.png"
+import EinpunkIllustration from "../../Assets/images/einpunk illustration.png"
 
 const HeroPage = () => {
   return (
