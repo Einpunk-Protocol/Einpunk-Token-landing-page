@@ -15,6 +15,9 @@ const HeroPage = () => {
                 <p>31% of Einpunk Tokens have been burnt so far.
                 The goal of the project is to establish a NFT club (Einpunk Club), where users can hold, buy and sell unique NFTs on a p2p platform.
                 </p>
+                <div className='contract-input'>
+                <input type="text" placeholder="Contract Address"/>
+                </div>
                 <a href={url}>Join our Community</a>
             </div>
             <div className='heropage-image'>

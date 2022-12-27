@@ -1,6 +1,6 @@
 .heropage-container {
     width: 100%;
-    height: 600px;
+    height: 650px;
     background: #000;
     position: absolute;
 }
@@ -51,4 +51,8 @@
     border: none;
     padding: 10px;
     border-radius: 20px;
+}
+
+.heropage-text .contract-input {
+    margin-bottom: 40px;
 }
