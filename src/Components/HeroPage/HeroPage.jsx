@@ -11,7 +11,7 @@ const HeroPage = () => {
         <div className='heropage-details'>
             <div className='heropage-text'>
                 <h2>The World's Fastest Growing <br/> Token Protocol</h2>
-                <p>Einpunk Token is a unique deflationary token with a 1% slippage, total supply of 1000T, 100% ownership renounced and Liquidity pool locked forever.</p>
+                <p><span>Einpunk Token</span> is a unique deflationary token with a 1% slippage, total supply of 1000T, 100% ownership renounced and Liquidity pool locked forever.</p>
                 <p>31% of Einpunk Tokens have been burnt so far.
                 The goal of the project is to establish a NFT club (Einpunk Club), where users can hold, buy and sell unique NFTs on a p2p platform.
                 </p>

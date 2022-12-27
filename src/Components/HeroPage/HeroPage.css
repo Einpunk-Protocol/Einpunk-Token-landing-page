@@ -30,6 +30,11 @@
     margin-bottom: 40px;
 }
 
+.heropage-text p span {
+    color: #269AFE;
+    font-weight: 500;
+}
+
 .line {
     margin: auto;
     display: block;
