@@ -65,6 +65,10 @@
     border: none;
 }
 
+.heropage-text .contract-input input:focus {
+    outline: none;
+}
+
 .heropage-text .contract-input h5 {
     color: #FFF;
 }
