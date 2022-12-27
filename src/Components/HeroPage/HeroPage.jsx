@@ -1,4 +1,5 @@
 import React, {useRef, useState} from 'react'
+import {message} from "antd"
 import "./HeroPage.css"
 import {FaClone} from "react-icons/fa"
 import Line from "../../Assets/images/Line.png"
@@ -6,6 +7,8 @@ import {CopyToClipboard} from "react-copy-to-clipboard"
 import EinpunkIllustration from "../../Assets/images/einpunk illustration.png"
 
 const HeroPage = () => {
+    const [messageApi, contextHolder] = message.useMessage()
+
     let url = "https://t.me/+cBzvl0ZWRkxjYmMx"
     let contractAddress = "0xD7ACd2a9FD159E69Bb102A1ca21C9a3e3A5F771B"
     
@@ -16,10 +19,15 @@ const HeroPage = () => {
         contractInput.current.select()
         document.execCommand("copy")
         setCopy(true)
+        messageApi.open({
+            type: "success",
+            content: "Copied " + contractAddress
+        })
     }
 
   return (
     <div className='heropage-container'>
+        
         <img src={Line} alt=""  className='line'/>
         <div className='heropage-details'>
             <div className='heropage-text'>
@@ -30,9 +38,9 @@ const HeroPage = () => {
                 </p>
                 <div className='contract-input'>
                 <h5>Einpunk Token Contract Address</h5>
+                {contextHolder}
                 <input type="text" placeholder="Contract Address" value={contractAddress} ref={contractInput}/>
                 <FaClone onClick={copyToClipboard} className="copy-icon"/>
-                
                 </div>
                 <a href={url}>Join our Community</a>
             </div>
