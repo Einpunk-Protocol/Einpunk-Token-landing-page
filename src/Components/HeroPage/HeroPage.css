@@ -70,5 +70,11 @@
 }
 
 .heropage-text .copy-icon {
-    color: #FFF;
+    color: rgb(111, 110, 110);
+    transition: ease-in-out .5s;
+}
+
+.heropage-text .copy-icon:hover {
+    cursor: pointer;
+    color: #269AFE;
 }
