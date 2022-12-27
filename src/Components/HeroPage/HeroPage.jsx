@@ -15,6 +15,10 @@ const HeroPage = () => {
                     NFTs. Trade with confidence on the world’s fastest and most secure <br/>
                 crypto exchange
                 </p>
+                <p>Einpunk Token is a unique deflationary token with a 1% slippage, total supply of 1000T, 100% ownership renounced and Liquidity pool locked forever.<br/>
+
+31% of Einpunk Tokens have been burnt so far.
+The goal of the project is to establish a NFT club (WikiCat Club), where users can hold, buy and sell unique NFTs on a p2p platform.</p>
                 <a href={url}>Join our Community</a>
             </div>
             <div className='heropage-image'>
