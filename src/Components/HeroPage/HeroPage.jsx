@@ -1,5 +1,6 @@
 import React, {useRef, useState} from 'react'
 import "./HeroPage.css"
+import {FaClone} from "react-icons/fa"
 import Line from "../../Assets/images/Line.png"
 import {CopyToClipboard} from "react-copy-to-clipboard"
 import EinpunkIllustration from "../../Assets/images/einpunk illustration.png"
@@ -30,7 +31,7 @@ const HeroPage = () => {
                 <div className='contract-input'>
                 <h5>Einpunk Token Contract Address</h5>
                 <input type="text" placeholder="Contract Address" value={contractAddress} ref={contractInput}/>
-                <button onClick={copyToClipboard}>Copy</button>
+                <FaClone onClick={copyToClipboard} className="copy-icon"/>
                 
                 </div>
                 <a href={url}>Join our Community</a>
