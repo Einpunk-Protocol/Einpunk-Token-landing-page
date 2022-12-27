@@ -5,6 +5,7 @@ import EinpunkIllustration from "../../Assets/images/einpunk illustration.png"
 
 const HeroPage = () => {
     let url = "https://t.me/+cBzvl0ZWRkxjYmMx"
+    let contractAddress = "0xD7ACd2a9FD159E69Bb102A1ca21C9a3e3A5F771B"
   return (
     <div className='heropage-container'>
         <img src={Line} alt=""  className='line'/>
@@ -16,7 +17,8 @@ const HeroPage = () => {
                 The goal of the project is to establish a NFT club (Einpunk Club), where users can hold, buy and sell unique NFTs on a p2p platform.
                 </p>
                 <div className='contract-input'>
-                <input type="text" placeholder="Contract Address"/>
+                <h5>Einpunk Token Contract Address</h5>
+                <input type="text" placeholder="Contract Address" value={contractAddress}/>
                 </div>
                 <a href={url}>Join our Community</a>
             </div>
