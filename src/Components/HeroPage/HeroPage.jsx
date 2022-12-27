@@ -1,11 +1,22 @@
-import React from 'react'
+import React, {useRef, useState} from 'react'
 import "./HeroPage.css"
 import Line from "../../Assets/images/Line.png"
+import {CopyToClipboard} from "react-copy-to-clipboard"
 import EinpunkIllustration from "../../Assets/images/einpunk illustration.png"
 
 const HeroPage = () => {
     let url = "https://t.me/+cBzvl0ZWRkxjYmMx"
     let contractAddress = "0xD7ACd2a9FD159E69Bb102A1ca21C9a3e3A5F771B"
+    
+    const [copy, setCopy] = useState("")
+    const contractInput = useRef(null)
+    
+    let copyToClipboard = (e) =>{
+        contractInput.current.select()
+        document.execCommand("copy")
+        setCopy(true)
+    }
+
   return (
     <div className='heropage-container'>
         <img src={Line} alt=""  className='line'/>
@@ -18,7 +29,9 @@ const HeroPage = () => {
                 </p>
                 <div className='contract-input'>
                 <h5>Einpunk Token Contract Address</h5>
-                <input type="text" placeholder="Contract Address" value={contractAddress}/>
+                <input type="text" placeholder="Contract Address" value={contractAddress} ref={contractInput}/>
+                <button onClick={copyToClipboard}>Copy</button>
+                
                 </div>
                 <a href={url}>Join our Community</a>
             </div>
