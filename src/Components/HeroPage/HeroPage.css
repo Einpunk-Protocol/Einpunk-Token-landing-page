@@ -12,11 +12,18 @@
     margin-top: 100px;
 }
 
-.heropage-text {
+.heropage-text h2 {
     color: #FFF;
     margin-top: 100px;
     margin-left: 60px;
-    font-size: 20px;
+    font-size: 29px;
+    font-weight: 800;
+}
+
+.heropage-text p {
+    color: #FFF;
+    font-size: 15px;
+    margin-left: 60px;
 }
 
 .line {
