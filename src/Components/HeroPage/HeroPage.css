@@ -91,4 +91,7 @@
     .heropage-image img {
         width: 400px;
     }
+    .line {
+        width: 100%;
+    }
 }
