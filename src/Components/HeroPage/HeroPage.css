@@ -83,3 +83,12 @@
     cursor: pointer;
     color: #269AFE;
 }
+
+@media(max-width: 600px) {
+    .heropage-text {
+        width: 100%;
+    }
+    .heropage-image img {
+        width: 400px;
+    }
+}
