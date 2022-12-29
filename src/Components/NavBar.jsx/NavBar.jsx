@@ -11,8 +11,13 @@ const NavBar = () => {
         </div>
         <div className='menu-list'>
             <ul>
-                <li><NavLink to="/" className="nav-links">Home</NavLink></li>
-                <li><NavLink to="/about" className="nav-links">About</NavLink></li>
+                <li><NavLink to="/" className="nav-links"
+                style={({isActive}) =>({
+                    color: isActive ? "#269AFE" : "#FFF"
+                })}>Home</NavLink></li>
+                <li><NavLink to="/about" className="nav-links" style={({isActive}) =>({
+                    color: isActive ? "#269AFE" : "#FFF"
+                })}>About</NavLink></li>
                 <li>How to buy</li>
                 <li>Buy Now</li>
                 <button>Connect Wallet</button>
