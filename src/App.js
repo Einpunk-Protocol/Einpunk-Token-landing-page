@@ -7,11 +7,11 @@ import HeroPage from './Components/HeroPage/HeroPage';
 function App() {
   return (
     <div>
-      <NavBar/>
       <Router>
+      <NavBar/>
         <Routes>
-        <Route path="/" element={<HeroPage/>}/>
-        <Route path="about" element={<About/>}/>
+        <Route exact path="/" element={<HeroPage/>}/>
+        <Route exact path="/about" element={<About/>}/>
         </Routes>
       </Router>
     </div>

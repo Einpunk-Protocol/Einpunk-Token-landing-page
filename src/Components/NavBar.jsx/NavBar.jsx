@@ -1,5 +1,6 @@
 import React from 'react'
 import "./NavBar.css"
+import {NavLink} from "react-router-dom"
 import EinpunkLogo from "../../Assets/images/Einpunk Logo white.png"
 
 const NavBar = () => {
@@ -10,8 +11,8 @@ const NavBar = () => {
         </div>
         <div className='menu-list'>
             <ul>
-                <li>Home</li>
-                <li>About</li>
+                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="/about">About</NavLink></li>
                 <li>How to buy</li>
                 <li>Buy Now</li>
                 <button>Connect Wallet</button>
