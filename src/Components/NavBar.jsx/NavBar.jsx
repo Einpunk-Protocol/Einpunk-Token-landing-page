@@ -13,7 +13,8 @@ const NavBar = () => {
                 <li>Home</li>
                 <li>About</li>
                 <li>How to buy</li>
-                <button>Buy Now</button>
+                <li>Buy Now</li>
+                <button>Connect Wallet</button>
             </ul>
         </div>
     </div>
