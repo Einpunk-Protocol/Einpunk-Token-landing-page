@@ -21,6 +21,10 @@
     color: #FFF;
 }
 
+.menu-list ul li:hover {
+    cursor: pointer;
+}
+
 .menu-list ul button {
     background: rgba(255, 255, 255, 0.08);
     height: 50px;
