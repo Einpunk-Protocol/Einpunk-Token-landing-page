@@ -32,7 +32,8 @@
 }
 
 @media(max-width: 600px) {
-    .menu-list ul li {
+    .menu-list ul li,
+    button {
         display: none;
     }
 }
