@@ -21,6 +21,11 @@
     color: #FFF;
 }
 
+.nav-links {
+    text-decoration: none;
+    color: #FFF;
+}
+
 .menu-list ul li:hover {
     cursor: pointer;
 }
