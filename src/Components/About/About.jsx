@@ -1,6 +1,7 @@
 import React from 'react'
 import "./About.css"
 import DappsImage from "../../Assets/images/Dapps1-c-1.png"
+import NftsImage from "../../Assets/images/NFTs.png"
 const About = () => {
   return (
     <div className='about-container'>
@@ -10,6 +11,12 @@ const About = () => {
             <img src={DappsImage} alt="" />
             <h4>Dapps</h4>
             <p>Track, Discover And Analyze The Latest Dapps</p>
+            </div>
+
+            <div className='einpunk-feature'>
+            <img src={NftsImage} alt="" />
+            <h4>NFTs</h4>
+            <p>Track, Discover And Analyze The Latest NFTs</p>
             </div>
         </div>
     </div>
