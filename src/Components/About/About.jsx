@@ -24,9 +24,7 @@ const About = () => {
             <div className='einpunk-feature'>
             <img src={DefiImage} alt="" />
             <h4>DeFi</h4>
-            <p>Track, Discover And Analyze The Latest DeFi Projects
-
-</p>
+            <p>Track, Discover And Analyze The Latest DeFi Projects</p>
             </div>
             <div className='einpunk-feature'>
             <img src={AirdropImage} alt="" />
