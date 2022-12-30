@@ -9,4 +9,20 @@
     font-size: 40px;
 }
 
-.einpunk-features {}
+.einpunk-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.einpunk-feature {
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    border: 1px rgba(255, 255, 255, 0.1) solid;
+    border-radius: 16px;
+}
+
+.einpunk-feature img {
+    width: 150px;
+}
