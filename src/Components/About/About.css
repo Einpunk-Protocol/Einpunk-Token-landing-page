@@ -1,3 +1,7 @@
-h3 {
+.about-container {
+    padding: 50px;
+}
+
+.about-container h3 {
     color: #FFF;
 }
