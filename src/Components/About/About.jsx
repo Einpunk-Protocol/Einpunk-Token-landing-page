@@ -7,7 +7,7 @@ import AirdropImage from "../../Assets/images/Airdrops.png"
 const About = () => {
   return (
     <div className='about-container'>
-        <h3>Einpunk Features</h3>
+        <h3>Einpunk Token Features</h3>
         <div className='einpunk-features'>
             <div className='einpunk-feature'>
             <img src={DappsImage} alt="" />
