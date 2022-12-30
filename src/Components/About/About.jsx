@@ -6,9 +6,11 @@ const About = () => {
     <div className='about-container'>
         <h3>Einpunk Features</h3>
         <div className='einpunk-features'>
+            <div className='einpunk-feature'>
             <img src={DappsImage} alt="" />
             <h4>Dapps</h4>
             <p>Track, Discover And Analyze The Latest Dapps</p>
+            </div>
         </div>
     </div>
   )

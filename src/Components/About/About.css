@@ -1,5 +1,6 @@
 .about-container {
     padding: 50px;
+    color: #FFF;
 }
 
 .about-container h3 {
@@ -7,3 +8,5 @@
     text-align: center;
     font-size: 40px;
 }
+
+.einpunk-features {}
