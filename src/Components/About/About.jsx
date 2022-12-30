@@ -3,7 +3,7 @@ import "./About.css"
 const About = () => {
   return (
     <div className='about-container'>
-        <h3>Our Goal and Mission</h3>
+        <h3>Einpunk Features</h3>
     </div>
   )
 }
