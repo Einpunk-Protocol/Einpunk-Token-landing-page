@@ -3,6 +3,7 @@ import "./About.css"
 import DappsImage from "../../Assets/images/Dapps1-c-1.png"
 import NftsImage from "../../Assets/images/NFTs.png"
 import DefiImage from "../../Assets/images/DeFI.png"
+import AirdropImage from "../../Assets/images/Airdrops.png"
 const About = () => {
   return (
     <div className='about-container'>
@@ -28,9 +29,9 @@ const About = () => {
 </p>
             </div>
             <div className='einpunk-feature'>
-            <img src={DefiImage} alt="" />
-            <h4>Token Swap</h4>
-            <p>Exchange Your ERC20 Tokens On Multiple Networks</p>
+            <img src={AirdropImage} alt="" />
+            <h4>Airdrop</h4>
+            <p>Sign Up For Free Einpunk Airdops</p>
             </div>
         </div>
     </div>
