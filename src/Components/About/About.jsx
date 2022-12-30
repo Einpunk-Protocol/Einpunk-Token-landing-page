@@ -2,6 +2,7 @@ import React from 'react'
 import "./About.css"
 import DappsImage from "../../Assets/images/Dapps1-c-1.png"
 import NftsImage from "../../Assets/images/NFTs.png"
+import DefiImage from "../../Assets/images/DeFI.png"
 const About = () => {
   return (
     <div className='about-container'>
@@ -17,6 +18,14 @@ const About = () => {
             <img src={NftsImage} alt="" />
             <h4>NFTs</h4>
             <p>Track, Discover And Analyze The Latest NFTs</p>
+            </div>
+
+            <div className='einpunk-feature'>
+            <img src={DefiImage} alt="" />
+            <h4>DeFi</h4>
+            <p>Track, Discover And Analyze The Latest DeFi Projects
+
+</p>
             </div>
         </div>
     </div>
