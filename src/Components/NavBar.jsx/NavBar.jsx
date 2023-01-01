@@ -18,7 +18,9 @@ const NavBar = () => {
                 <li><NavLink to="/about" className="nav-links" style={({isActive}) =>({
                     color: isActive ? "#269AFE" : "#FFF"
                 })}>About</NavLink></li>
-                <li>How to buy</li>
+                <li><NavLink to="/about" className="nav-links" style={({isActive}) =>({
+                    color: isActive ? "#269AFE" : "#FFF"
+                })}>How to buy</NavLink></li>
                 <li>Buy Now</li>
                 <button>Connect Wallet</button>
             </ul>
