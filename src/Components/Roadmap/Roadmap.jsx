@@ -4,7 +4,7 @@ import "./Roadmap.css"
 const Roadmap = () => {
   return (
     <div className='roadmap-container'>
-        <h4>Roadmap</h4>
+        <h4 className='roadmap-text'>Roadmap</h4>
     </div>
   )
 }
