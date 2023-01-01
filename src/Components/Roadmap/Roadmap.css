@@ -6,3 +6,8 @@
     font-size: 30px;
     text-align: center;
 }
+
+.roadmap-paletee {
+    border-left: 4px solid #FF8BF3;
+    margin-bottom: 40px;
+}
