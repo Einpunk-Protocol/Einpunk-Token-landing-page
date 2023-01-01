@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Roadmap.css"
 
 const Roadmap = () => {
   return (
