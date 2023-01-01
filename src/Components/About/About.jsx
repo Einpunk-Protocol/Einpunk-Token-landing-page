@@ -4,6 +4,7 @@ import DappsImage from "../../Assets/images/Dapps1-c-1.png"
 import NftsImage from "../../Assets/images/NFTs.png"
 import DefiImage from "../../Assets/images/DeFI.png"
 import AirdropImage from "../../Assets/images/Airdrops.png"
+import Roadmap from '../Roadmap/Roadmap'
 const About = () => {
   return (
     <div className='about-container'>
@@ -32,6 +33,7 @@ const About = () => {
             <p>Sign Up For Free Einpunk Airdops</p>
             </div>
         </div>
+        <Roadmap/>
     </div>
   )
 }
