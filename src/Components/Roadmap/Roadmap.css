@@ -13,6 +13,7 @@
 
 .roadmap-paletees {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 150px;
     padding: 30px;
@@ -24,6 +25,12 @@
     text-align: center;
     margin-bottom: 40px;
     padding: 20px;
+    width: 350px;
+    height: 300px;
+}
+
+.roadmap-paletee:nth-child(2) {
+    margin-top: 100px;
 }
 
 .roadmap-paletee h5 {
