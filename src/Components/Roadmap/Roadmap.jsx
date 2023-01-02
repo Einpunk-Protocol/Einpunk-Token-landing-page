@@ -5,7 +5,7 @@ const Roadmap = () => {
   return (
     <div className='roadmap-container'>
         <h4 className='roadmap-text'>Roadmap</h4>
-        <p>Note: We are determined to follow through each project listed, within their given timeframes.</p>
+        <p className='roadmap-note'>Note: We are determined to follow through each project listed, within their given timeframes.</p>
         <div className='roadmap-paletee'>
             <h5>Phase 1</h5>
             <p>Einpunk Token Launch</p>
