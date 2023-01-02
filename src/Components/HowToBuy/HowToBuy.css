@@ -18,6 +18,10 @@
     width: 350px;
 }
 
+.how-to-buy-text h5 {
+    font-size: 16px;
+}
+
 .how-to-buy-text .tag {
     border-radius: 50%;
 }
