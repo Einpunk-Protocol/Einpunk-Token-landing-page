@@ -18,6 +18,9 @@ const HowToBuy = () => {
                <h5><Tag color="#269AFE" className="tag">3</Tag>
                Go to the DApps tab at the bottom and find PancakeSwap. iPhone users will have to enable the browser within TrustWallet by typing  trust://browser_enable  within Safari.
                </h5>
+               <h5><Tag color="#269AFE" className="tag">4</Tag>
+               On Pancake Swap, in the "From" slot select BNB or BSC, depending on which one you bought. In the bottom slot tap "Select currency" to search, and then paste in the contact address on this page
+               </h5>
             </div>
             <div className='how-to-buy-image'>
                 <img src={howToBuyImage} alt="How to Buy Illustration" />
