@@ -1,10 +1,21 @@
 import React from 'react'
 import "./HowToBuy.css"
+import {Tag} from 'antd'
 
 const HowToBuy = () => {
   return (
     <div className='how-to-buy-container'>
         <h4>How to Buy</h4>
+        <div className='how-to-buy-details'>
+            <div className='how-to-buy-text'>
+               <h5><Tag color="#269AFE">1</Tag>
+               Go to the Apple or Play store and download Trust Wallet or MetaMask.
+               </h5>
+            </div>
+            <div className='how-to-buy-image'>
+
+            </div>
+        </div>
     </div>
   )
 }
