@@ -18,7 +18,7 @@ const Roadmap = () => {
             <p>Creation of Chinese community</p>
         </div>
         <div className='roadmap-paletee'>
-            <h5>Phase 1</h5>
+            <h5>Phase 2</h5>
             <p>Einpunk Token Launch</p>
             <p>500 holders</p>
             <p>2000 wallet Transactions</p>

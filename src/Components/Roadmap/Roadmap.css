@@ -15,18 +15,15 @@
     display: flex;
     justify-content: center;
     gap: 150px;
+    padding: 30px;
 }
 
-.roadmap-paletee:nth-child(1) {
-    border-right: 4px solid #269AFE;
-    text-align: right;
+.roadmap-paletee {
+    border: 1px rgba(255, 255, 255, 0.1) solid;
+    border-radius: 16px;
+    text-align: center;
     margin-bottom: 40px;
-    padding-left: 10px;
-}
-
-.roadmap-paletee:nth-child(2) {
-    border-left: 4px solid #269AFE;
-    text-align: left;
+    padding: 20px;
 }
 
 .roadmap-paletee h5 {
