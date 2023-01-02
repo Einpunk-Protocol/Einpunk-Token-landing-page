@@ -4,6 +4,11 @@
 
 .roadmap-text {
     font-size: 30px;
+    text-align: center;
+}
+
+.roadmap-note {
+    text-align: center;
 }
 
 .roadmap-paletee {
