@@ -1,6 +1,7 @@
 import React from 'react'
 import "./HowToBuy.css"
 import {Tag} from 'antd'
+import howToBuyImage from "../../Assets/images/How to buy Illustration.png"
 
 const HowToBuy = () => {
   return (
@@ -13,7 +14,7 @@ const HowToBuy = () => {
                </h5>
             </div>
             <div className='how-to-buy-image'>
-
+                <img src={howToBuyImage} alt="How to Buy Illustration" />
             </div>
         </div>
     </div>

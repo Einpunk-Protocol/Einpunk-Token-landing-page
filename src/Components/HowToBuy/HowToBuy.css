@@ -2,3 +2,13 @@
     color: #FFF;
     padding: 50px;
 }
+
+.how-to-buy-details {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.how-to-buy-image img {
+    width: 350px;
+}
