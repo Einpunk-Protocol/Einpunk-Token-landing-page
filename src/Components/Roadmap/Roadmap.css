@@ -11,6 +11,10 @@
     text-align: center;
 }
 
+.roadmap-paletees {
+    display: flex;
+}
+
 .roadmap-paletee {
     border-left: 4px solid #269AFE;
     margin-bottom: 40px;

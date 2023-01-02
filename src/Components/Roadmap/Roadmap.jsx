@@ -17,6 +17,16 @@ const Roadmap = () => {
             <p>1000 organic telegram members</p>
             <p>Creation of Chinese community</p>
         </div>
+        <div className='roadmap-paletee'>
+            <h5>Phase 1</h5>
+            <p>Einpunk Token Launch</p>
+            <p>500 holders</p>
+            <p>2000 wallet Transactions</p>
+            <p>Website Launch</p>
+            <p>Contract Auditing by solidity finance</p>
+            <p>1000 organic telegram members</p>
+            <p>Creation of Chinese community</p>
+        </div>
         </div>
     </div>
   )
