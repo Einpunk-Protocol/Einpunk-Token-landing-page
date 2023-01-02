@@ -13,12 +13,20 @@
 
 .roadmap-paletees {
     display: flex;
+    justify-content: center;
+    gap: 150px;
 }
 
-.roadmap-paletee {
-    border-left: 4px solid #269AFE;
+.roadmap-paletee:nth-child(1) {
+    border-right: 4px solid #269AFE;
+    text-align: right;
     margin-bottom: 40px;
     padding-left: 10px;
+}
+
+.roadmap-paletee:nth-child(2) {
+    border-left: 4px solid #269AFE;
+    text-align: left;
 }
 
 .roadmap-paletee h5 {
