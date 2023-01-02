@@ -3,7 +3,9 @@ import "./HowToBuy.css"
 
 const HowToBuy = () => {
   return (
-    <div>HowToBuy</div>
+    <div className='how-to-buy-container'>
+        <h4>How to Buy</h4>
+    </div>
   )
 }
 
