@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Roadmap.css"
+import {Tag} from 'antd'
 
 const Roadmap = () => {
   return (
@@ -9,6 +10,28 @@ const Roadmap = () => {
         <div className='roadmap-paletees'>
         <div className='roadmap-paletee'>
             <h5>Phase 1</h5>
+            <p>Einpunk Token Launch <Tag color="green">Done</Tag></p>
+            <p>500 holders <Tag color="yellow">Ungoing</Tag></p>
+            <p>2000 wallet Transactions</p>
+            <p>Website Launch</p>
+            <p>Contract Auditing by solidity finance</p>
+            <p>1000 organic telegram members</p>
+            <p>Creation of Chinese community</p>
+        </div>
+        <div className='roadmap-paletee'>
+            <h5>Phase 2</h5>
+            <p>Einpunk Token Launch</p>
+            <p>500 holders</p>
+            <p>2000 wallet Transactions</p>
+            <p>Website Launch</p>
+            <p>Contract Auditing by solidity finance</p>
+            <p>1000 organic telegram members</p>
+            <p>Creation of Chinese community</p>
+        </div>
+        </div>
+        <div className='roadmap-paletees'>
+        <div className='roadmap-paletee'>
+            <h5>Phase 3</h5>
             <p>Einpunk Token Launch</p>
             <p>500 holders</p>
             <p>2000 wallet Transactions</p>
@@ -18,7 +41,7 @@ const Roadmap = () => {
             <p>Creation of Chinese community</p>
         </div>
         <div className='roadmap-paletee'>
-            <h5>Phase 2</h5>
+            <h5>Phase 4</h5>
             <p>Einpunk Token Launch</p>
             <p>500 holders</p>
             <p>2000 wallet Transactions</p>
