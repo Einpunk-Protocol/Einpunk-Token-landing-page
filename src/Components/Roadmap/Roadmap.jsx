@@ -12,7 +12,7 @@ const Roadmap = () => {
             <h5>Phase 1</h5>
             <p>Einpunk Token Launch <Tag color="green">Done</Tag></p>
             <p>500 holders <Tag color="yellow">Ungoing</Tag></p>
-            <p>2000 wallet Transactions</p>
+            <p>2000 wallet Transactions <Tag color="yellow">Ungoing</Tag></p>
             <p>Website Launch</p>
             <p>Contract Auditing by solidity finance</p>
             <p>1000 organic telegram members</p>
