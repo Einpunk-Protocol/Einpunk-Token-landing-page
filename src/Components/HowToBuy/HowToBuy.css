@@ -3,6 +3,11 @@
     padding: 50px;
 }
 
+.how-to-buy-container h4 {
+    text-align: center;
+    font-size: 30px;
+}
+
 .how-to-buy-details {
     display: flex;
     justify-content: center;
