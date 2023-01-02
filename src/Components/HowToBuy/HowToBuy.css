@@ -17,3 +17,7 @@
 .how-to-buy-image img {
     width: 350px;
 }
+
+.how-to-buy-text .tag {
+    border-radius: 50%;
+}
