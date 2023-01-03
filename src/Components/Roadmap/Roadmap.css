@@ -41,7 +41,7 @@
 
 @media(max-width: 600px) {
     .roadmap-paletee {
-        height: 420px;
+        height: 320px;
     }
     .roadmap-paletees {
         gap: 30px;
