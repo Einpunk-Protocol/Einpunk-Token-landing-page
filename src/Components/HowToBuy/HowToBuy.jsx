@@ -24,6 +24,9 @@ const HowToBuy = () => {
                <h5><Tag color="#269AFE" className="tag">5</Tag>
                Click the icon with the dials at the top left, then set the slippage tolerance to 11-12%, and close that interface once done.
                </h5>
+               <h5><Tag color="#269AFE" className="tag">6</Tag>
+               Put the amount of BNB you wish to spend in the "From" box, and press the "Swap" button.
+               </h5>
             </div>
             <div className='how-to-buy-image'>
                 <img src={howToBuyImage} alt="How to Buy Illustration" />
