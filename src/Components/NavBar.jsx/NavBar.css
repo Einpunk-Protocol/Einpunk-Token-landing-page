@@ -45,4 +45,7 @@
     button {
         display: none;
     }
+    .navbar-logo img {
+        margin-left: 20px;
+    }
 }
