@@ -42,4 +42,7 @@
     .roadmap-paletee {
         height: 420px;
     }
+    .roadmap-paletees {
+        gap: 30px;
+    }
 }
