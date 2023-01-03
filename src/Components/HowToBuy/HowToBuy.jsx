@@ -27,6 +27,9 @@ const HowToBuy = () => {
                <h5><Tag color="#269AFE" className="tag">6</Tag>
                Put the amount of BNB you wish to spend in the "From" box, and press the "Swap" button.
                </h5>
+               <h5><Tag color="#269AFE" className="tag">7</Tag>
+               Click the swap button & confirm the transaction … Congratulations you now own Einpunk Token!
+               </h5>
             </div>
             <div className='how-to-buy-image'>
                 <img src={howToBuyImage} alt="How to Buy Illustration" />
