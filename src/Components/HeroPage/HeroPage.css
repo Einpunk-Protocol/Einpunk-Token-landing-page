@@ -7,7 +7,6 @@
 
 .heropage-details {
     display: flex;
-    flex-wrap: wrap;
     gap: 5%;
     margin-top: 40px;
 }
@@ -105,5 +104,8 @@
     }
     .heropage-container {
         height: 100%;
+    }
+    .heropage-details {
+        flex-wrap: wrap;
     }
 }
