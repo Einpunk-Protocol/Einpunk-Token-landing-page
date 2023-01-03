@@ -40,7 +40,7 @@ const NavBar = () => {
             <FaAlignRight className='menu-bar' onClick={showNavBar}/>
         </div>
         <Drawer closable={false} placement='bottom' open={open} className='menu-drawer' onClose={onClose}>
-            <FaTimes />
+            <FaTimes onClick={onClose} className="closeIcon"/>
             <ul>
                 <li><NavLink to="/" className="nav-links"
                 style={({isActive}) =>({
