@@ -11,6 +11,7 @@
 .how-to-buy-details {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 150px;
 }
 
