@@ -88,13 +88,13 @@
     .heropage-text {
         width: 100%;
         margin-top: 20px;
-        margin-left: 30px;
+        margin-left: 10px;
     }
     .heropage-text h2 {
         font-size: 25px;
     }
     .heropage-image img {
-        width: 400px;
+        width: 350px;
     }
     .line {
         display: none;
