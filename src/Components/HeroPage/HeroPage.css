@@ -96,7 +96,7 @@
         width: 400px;
     }
     .line {
-        width: 100%;
+        display: none;
     }
     .heropage-container {
         height: 100%;
