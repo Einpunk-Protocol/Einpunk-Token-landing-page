@@ -56,8 +56,7 @@ const NavBar = () => {
                     color: isActive ? "#269AFE" : "#FFF"
                 })}>Buy Now</NavLink></li>
             </ul>
-            <button>Connect Wallet</button>
-
+            <button className='button'>Connect Wallet</button>
         </Drawer>
 
     </div>
