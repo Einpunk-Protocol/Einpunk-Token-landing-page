@@ -55,8 +55,8 @@ const NavBar = () => {
                 <li><NavLink to="/buynow" className="nav-links" onClick={onClose} style={({isActive}) =>({
                     color: isActive ? "#269AFE" : "#FFF"
                 })}>Buy Now</NavLink></li>
+                <button className='button'>Connect Wallet</button>
             </ul>
-            <button className='button'>Connect Wallet</button>
         </Drawer>
 
     </div>

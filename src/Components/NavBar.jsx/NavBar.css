@@ -32,6 +32,10 @@
     margin-left: 30px;
 }
 
+.menu-drawer .closeIcon:hover {
+    cursor: pointer;
+}
+
 .menu-drawer {
     color: #FFF !important;
     background: #000 !important;
@@ -51,6 +55,7 @@
     font-size: 17px;
     border: none;
     border-radius: 30px;
+    margin-top: 30px;
 }
 
 .menu-drawer ul button:hover {
@@ -84,7 +89,7 @@
 
 @media(max-width: 600px) {
     .menu-list ul li,
-    button {
+    .menu-list button {
         display: none;
     }
     .navbar-logo img {
