@@ -97,6 +97,9 @@
         width: 360px;
         margin-top: 30px;
     }
+    .heropage-text p {
+        font-size: 13px;
+    }
     .line {
         display: none;
     }
