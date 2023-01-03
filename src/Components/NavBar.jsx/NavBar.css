@@ -2,7 +2,7 @@
     display: flex;
     height: 93px;
     background: #000;
-    gap: 48%;
+    gap: 45%;
 }
 
 .navbar-logo img {
@@ -18,7 +18,6 @@
 .menu-bar {
     color: #FFF;
     font-size: 19px;
-    margin-left: 100px;
     display: none;
     margin-top: 30px;
 }
