@@ -18,8 +18,9 @@
 .menu-bar {
     color: #FFF;
     font-size: 18px;
-    margin-left: 80px;
+    margin-left: 100px;
     display: none;
+    margin-top: 30px;
 }
 
 .menu-drawer {
