@@ -44,7 +44,7 @@ const HeroPage = () => {
                 <a href={url}>Join our Community</a>
             </div>
             <div className='heropage-image'>
-                <img src={EinpunkIllustration} alt="Einpunk Illustration" />
+                <img src={EinpunkIllustration} alt="Einpunk Illustration" loading='lazy'/>
             </div>
         </div>
     </div>
