@@ -39,7 +39,7 @@ const HeroPage = () => {
                 <div className='contract-input'>
                 <h5>Einpunk Token Contract Address</h5>
                 {contextHolder}
-                <input type="text" value={contractAddress} ref={contractInput}/>
+                <input type="text" defaultValue={contractAddress} ref={contractInput}/>
                 <FaClone onClick={copyToClipboard} className="copy-icon"/>
                 </div>
                 <a href={url}>Join our Community</a>
