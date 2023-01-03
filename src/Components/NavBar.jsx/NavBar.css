@@ -103,6 +103,6 @@
 
 @media(max-width: 768px) {
     .navbar-container {
-        gap: 75%;
+        gap: 70%;
     }
 }
