@@ -7,6 +7,7 @@ import AirdropImage from "../../Assets/images/Airdrops.png"
 import Roadmap from '../Roadmap/Roadmap'
 const About = () => {
   return (
+    <>
     <div className='about-container'>
         <h3>Einpunk Token Features</h3>
         <div className='einpunk-features'>
@@ -33,8 +34,9 @@ const About = () => {
             <p>Sign Up For Free Einpunk Airdops</p>
             </div>
         </div>
-        <Roadmap/>
     </div>
+    <Roadmap/>
+    </>
   )
 }
 
