@@ -22,7 +22,7 @@ const HowToBuy = () => {
                On Pancake Swap, in the "From" slot select ETH depending on which one you bought. In the bottom slot tap "Select currency" to search, and then paste in the contact address on this page
                </h5>
                <h5><Tag color="#269AFE" className="tag">5</Tag>
-               
+               Click the icon with the dials at the top left, then set the slippage tolerance to 11-12%, and close that interface once done.
                </h5>
             </div>
             <div className='how-to-buy-image'>
