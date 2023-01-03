@@ -26,7 +26,6 @@ const HeroPage = () => {
 
   return (
     <div className='heropage-container'>
-        
         <img src={Line} alt=""  className='line'/>
         <div className='heropage-details'>
             <div className='heropage-text'>
