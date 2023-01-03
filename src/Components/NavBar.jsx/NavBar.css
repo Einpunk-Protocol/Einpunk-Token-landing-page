@@ -23,6 +23,10 @@
     margin-top: 30px;
 }
 
+.menu-bar:hover {
+    cursor: pointer;
+}
+
 .menu-drawer {
     color: #FFF !important;
     background: #000 !important;
@@ -31,6 +35,21 @@
 .menu-drawer ul li {
     list-style: none;
     margin-top: 30px;
+    font-size: 17px;
+}
+
+.menu-drawer button {
+    background: rgba(255, 255, 255, 0.08);
+    height: 50px;
+    width: 150px;
+    color: #269AFE;
+    font-size: 17px;
+    border: none;
+    border-radius: 30px;
+}
+
+.menu-drawer ul button:hover {
+    cursor: pointer;
 }
 
 .menu-list ul li {
