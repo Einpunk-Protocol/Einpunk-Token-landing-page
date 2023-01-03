@@ -3,7 +3,7 @@ import {message} from "antd"
 import "./HeroPage.css"
 import {FaClone} from "react-icons/fa"
 import Line from "../../Assets/images/Line.png"
-import EinpunkIllustration from "../../Assets/images/einpunk_illustration -new.png"
+import EinpunkIllustration from "../../Assets/images/einpunk illustration.png"
 
 const HeroPage = () => {
     const [messageApi, contextHolder] = message.useMessage()
