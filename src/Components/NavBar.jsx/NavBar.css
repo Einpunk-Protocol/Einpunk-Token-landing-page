@@ -19,6 +19,7 @@
     color: #FFF;
     font-size: 18px;
     margin-left: 100px;
+    display: none;
 }
 
 .menu-list ul li {
@@ -53,5 +54,8 @@
     }
     .navbar-logo img {
         margin-left: 20px;
+    }
+    .menu-bar {
+        display: flex;
     }
 }
