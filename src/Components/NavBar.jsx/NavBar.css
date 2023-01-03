@@ -102,3 +102,9 @@
         width: 50px;
     }
 }
+
+@media(max-width: 768px) {
+    .menu-bar {
+        margin-left: 130px;
+    }
+}
