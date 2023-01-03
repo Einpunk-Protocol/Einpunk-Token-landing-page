@@ -102,7 +102,7 @@
 }
 
 @media(max-width: 768px) {
-    .menu-bar {
-        margin-left: 100px;
+    .navbar-container {
+        gap: 75%;
     }
 }
