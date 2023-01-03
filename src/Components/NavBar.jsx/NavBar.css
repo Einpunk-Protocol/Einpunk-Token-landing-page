@@ -98,4 +98,7 @@
     .menu-bar {
         display: flex;
     }
+    .navbar-logo img {
+        width: 50px;
+    }
 }
