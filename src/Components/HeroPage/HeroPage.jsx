@@ -3,7 +3,6 @@ import {message} from "antd"
 import "./HeroPage.css"
 import {FaClone} from "react-icons/fa"
 import Line from "../../Assets/images/Line.png"
-import {CopyToClipboard} from "react-copy-to-clipboard"
 import EinpunkIllustration from "../../Assets/images/einpunk illustration.png"
 
 const HeroPage = () => {

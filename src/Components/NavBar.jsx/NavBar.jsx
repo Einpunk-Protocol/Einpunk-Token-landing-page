@@ -1,6 +1,6 @@
 import React from 'react'
 import "./NavBar.css"
-import { FaAlignLeft } from "react-icons/fa";
+import { FaAlignRight } from "react-icons/fa";
 import {NavLink} from "react-router-dom"
 import EinpunkLogo from "../../Assets/images/Einpunk Logo white.png"
 
@@ -27,7 +27,7 @@ const NavBar = () => {
                 })}>Buy Now</NavLink></li>
                 <button>Connect Wallet</button>
             </ul>
-            <FaAlignLeft className='menu-bar'/>
+            <FaAlignRight className='menu-bar'/>
         </div>
     </div>
   )
