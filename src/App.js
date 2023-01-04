@@ -4,6 +4,7 @@
  import NavBar from './Components/NavBar.jsx/NavBar';
  import About from './Components/About/About';
 import HowToBuy from './Components/HowToBuy/HowToBuy';
+import BuyNow from './Components/BuyNow/BuyNow';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/" element={<HeroPage/>}/>
         <Route exact path="/about" element={<About/>}/>
         <Route exact path="/howtobuy" element={<HowToBuy/>}/>
+        <Route exact path="/buynow" element={<BuyNow/>}></Route>
         </Routes>
       </Router>
     </div>
