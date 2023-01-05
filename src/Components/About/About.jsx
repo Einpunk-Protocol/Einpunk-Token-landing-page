@@ -14,7 +14,7 @@ const About = () => {
             <div className='einpunk-feature'>
             <img src={DappsImage} alt="" />
             <h4>Dapps</h4>
-            <p>Track, Discover And Analyze The Latest Dapps</p>
+            <p>The dev team will be looking into develop amazing usecases for Einpunk token and the Community e.g Einpunk Exchange</p>
             </div>
 
             <div className='einpunk-feature'>
