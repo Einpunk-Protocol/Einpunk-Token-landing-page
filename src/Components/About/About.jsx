@@ -20,7 +20,7 @@ const About = () => {
             <div className='einpunk-feature'>
             <img src={NftsImage} alt="" />
             <h4>NFTs</h4>
-            <p>Track, Discover And Analyze The Latest NFTs</p>
+            <p>We will be exploring the NTFs ecosystem, we will have a marketspace for Einpunk Community as well as the Einpunk Holders.</p>
             </div>
 
             <div className='einpunk-feature'>
