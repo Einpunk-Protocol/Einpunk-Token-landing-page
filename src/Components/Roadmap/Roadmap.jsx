@@ -1,20 +1,20 @@
 import React from 'react'
 import "./Roadmap.css"
 import {Tag} from 'antd'
-import {motion, useScroll} from "framer-motion"
+import {motion} from "framer-motion"
 
 const Roadmap = () => {
-    const {scrollYProgress} = useScroll();
   return (
     <div  className='roadmap-container'>
         <h4 className='roadmap-text'>Roadmap</h4>
         <p className='roadmap-note'>Note: We are determined to follow through each project listed, within their given timeframes.</p>
         <motion.div
-        initial= "hidden"
-        whileInView="visible"
-        viewport={{once: true}}
+        initial= {{x: "-50vw"}}
+        animate={{x: 0}}
+        transition={{type: "spring", duration: 1, bounce:0.3}}
+        viewport={{once: true, amount: 0.8}}
          className='roadmap-paletees'>
-        <div className='roadmap-paletee'>
+        <motion.div className='roadmap-paletee'>
             <h5>Phase 1</h5>
             <p>Einpunk Token Launch <Tag color="green">Done</Tag></p>
             <p>500 holders <Tag color="yellow">Ungoing</Tag></p>
@@ -23,7 +23,7 @@ const Roadmap = () => {
             <p>Contract Auditing by solidity finance</p>
             <p>1000 organic telegram members</p>
             <p>Creation of Chinese community</p>
-        </div>
+        </motion.div>
         <div className='roadmap-paletee'>
             <h5>Phase 2</h5>
             <p>CoinMarketCap & Coin gecko listing</p>
