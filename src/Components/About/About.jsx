@@ -5,6 +5,7 @@ import NftsImage from "../../Assets/images/NFTs.png"
 import DefiImage from "../../Assets/images/DeFI.png"
 import AirdropImage from "../../Assets/images/Airdrops.png"
 import Roadmap from '../Roadmap/Roadmap'
+import {motion} from "framer-motion"
 const About = () => {
   return (
     <>
