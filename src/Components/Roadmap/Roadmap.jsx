@@ -47,7 +47,9 @@ const Roadmap = () => {
             <p>1000 organic telegram members</p>
             <p>Creation of Chinese community</p>
         </div>
-        <motion.div className='roadmap-paletee'>
+        <motion.div
+        animate={animation}
+         className='roadmap-paletee'>
             <h5>Phase 2</h5>
             <p>CoinMarketCap & Coin gecko listing</p>
             <p>5000 telegram members</p>

@@ -46,4 +46,7 @@
     .roadmap-paletees {
         gap: 30px;
     }
+    .roadmap-paletee:nth-child(2) {
+        margin-top: 30px;
+    }
 }
