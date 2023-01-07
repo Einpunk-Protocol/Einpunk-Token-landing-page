@@ -26,6 +26,10 @@
     border-radius: 16px;
 }
 
+.einpunk-feature:hover {
+    cursor: pointer;
+}
+
 .einpunk-feature img {
     width: 150px;
     display: block;
