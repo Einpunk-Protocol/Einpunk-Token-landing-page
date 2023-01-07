@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import "./Roadmap.css"
 import {Tag} from 'antd'
 import { useInView } from 'react-intersection-observer'
@@ -6,6 +6,9 @@ import {motion} from "framer-motion"
 
 const Roadmap = () => {
     const {ref, inView} =  useInView();
+    useEffect(() => {
+        console.log("UseEffect Hook, inView=", inView)
+    })
   return (
     <div  className='roadmap-container'>
         <h4 className='roadmap-text'>Roadmap</h4>
@@ -15,6 +18,7 @@ const Roadmap = () => {
         animate={{x: 0}}
         transition={{type: "spring", duration: 1, bounce:0.3}}
         viewport={{once: true, amount: 0.8}}
+        ref={ref}
          className='roadmap-paletees'>
         <motion.div className='roadmap-paletee'>
             <h5>Phase 1</h5>
