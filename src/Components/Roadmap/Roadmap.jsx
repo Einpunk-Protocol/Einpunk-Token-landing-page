@@ -1,9 +1,11 @@
 import React from 'react'
 import "./Roadmap.css"
 import {Tag} from 'antd'
+import { useInView } from 'react-intersection-observer'
 import {motion} from "framer-motion"
 
 const Roadmap = () => {
+    const {ref, inView} =  useInView();
   return (
     <div  className='roadmap-container'>
         <h4 className='roadmap-text'>Roadmap</h4>
