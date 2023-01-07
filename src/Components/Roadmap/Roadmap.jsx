@@ -16,7 +16,7 @@ const Roadmap = () => {
             animation.start({
                 x: 0,
                 transition: {
-                    type: "spring", duration: 1, bounce: 0.3
+                    type: "spring", duration: 1, bounce: 0.6
                 }
             })
         }
@@ -44,14 +44,14 @@ const Roadmap = () => {
             <p>1000 organic telegram members</p>
             <p>Creation of Chinese community</p>
         </div>
-        <div className='roadmap-paletee'>
+        <motion.div className='roadmap-paletee'>
             <h5>Phase 2</h5>
             <p>CoinMarketCap & Coin gecko listing</p>
             <p>5000 telegram members</p>
             <p>2000 wallet Transactions</p>
             <p>2000 holders</p>
             <p>Listing on a centralised exchange</p>
-        </div>
+        </motion.div>
         </motion.div>
         <div className='roadmap-paletees' >
         <div className='roadmap-paletee'>
