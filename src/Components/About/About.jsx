@@ -12,17 +12,21 @@ const About = () => {
     <div className='about-container'>
         <h3>Einpunk Token Features</h3>
         <div className='einpunk-features'>
-            <div className='einpunk-feature'>
+            <motion.div whileHover={{ y: 30 }}
+            transition={{duration: 1}}
+             className='einpunk-feature'>
             <img src={DappsImage} alt="" />
             <h4>Dapps</h4>
             <p>The dev team will be looking into develop amazing usecases for Einpunk token and the Community e.g Einpunk Exchange</p>
-            </div>
+            </motion.div>
 
-            <div className='einpunk-feature'>
+            <motion.div whileHover={{ y: -30 }}
+            transition={{duration: 1}}
+            className='einpunk-feature'>
             <img src={NftsImage} alt="" />
             <h4>NFTs</h4>
             <p>We will be exploring the NTFs ecosystem, we will have a marketspace for Einpunk Community as well as the Einpunk Holders.</p>
-            </div>
+            </motion.div>
 
             <div className='einpunk-feature'>
             <img src={DefiImage} alt="" />
