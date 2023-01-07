@@ -53,7 +53,7 @@ const Roadmap = () => {
             <p>Listing on a centralised exchange</p>
         </div>
         </motion.div>
-        <div className='roadmap-paletees'>
+        <div className='roadmap-paletees' >
         <div className='roadmap-paletee'>
             <h5>Phase 3</h5>
             <p>20,000 telegram members</p>
