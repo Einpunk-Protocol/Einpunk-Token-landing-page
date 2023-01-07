@@ -26,7 +26,7 @@ const Roadmap = () => {
             })
         }
         console.log("UseEffect Hook, inView=", inView)
-    }, [inView, animation])
+    }, [inView])
   return (
     <div  className='roadmap-container'  ref={ref}>
         <h4 className='roadmap-text'>Roadmap</h4>
@@ -34,7 +34,7 @@ const Roadmap = () => {
         <motion.div
         animate={animation}
          className='roadmap-paletees'>
-        <motion.div className='roadmap-paletee'>
+        <div className='roadmap-paletee'>
             <h5>Phase 1</h5>
             <p>Einpunk Token Launch <Tag color="green">Done</Tag></p>
             <p>500 holders <Tag color="yellow">Ungoing</Tag></p>
@@ -43,7 +43,7 @@ const Roadmap = () => {
             <p>Contract Auditing by solidity finance</p>
             <p>1000 organic telegram members</p>
             <p>Creation of Chinese community</p>
-        </motion.div>
+        </div>
         <div className='roadmap-paletee'>
             <h5>Phase 2</h5>
             <p>CoinMarketCap & Coin gecko listing</p>
