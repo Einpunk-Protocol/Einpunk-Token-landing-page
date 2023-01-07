@@ -4,6 +4,7 @@ import "./HeroPage.css"
 import {FaClone} from "react-icons/fa"
 import Line from "../../Assets/images/Line.png"
 import EinpunkIllustration from "../../Assets/images/einpunk illustration.png"
+import {easeIn, motion} from "framer-motion"
 
 const HeroPage = () => {
     const [messageApi, contextHolder] = message.useMessage()
@@ -43,7 +44,10 @@ const HeroPage = () => {
                 <a href={url}>Join our Community</a>
             </div>
             <div className='heropage-image'>
-                <img src={EinpunkIllustration} alt="Einpunk Illustration" loading='lazy'/>
+                <motion.img 
+                animate={{y: 10}}
+                transition={{repeat: Infinity, duration: 2, bounce: 0.3}}
+                src={EinpunkIllustration} alt="Einpunk Illustration" loading='lazy'/>
             </div>
         </div>
     </div>
