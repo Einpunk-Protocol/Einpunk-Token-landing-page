@@ -28,11 +28,14 @@ const About = () => {
             <p>We will be exploring the NTFs ecosystem, we will have a marketspace for Einpunk Community as well as the Einpunk Holders.</p>
             </motion.div>
 
-            <div className='einpunk-feature'>
+            <motion.div 
+            whileHover={{ y: 30 }}
+            transition={{duration: 1}}
+            className='einpunk-feature'>
             <img src={DefiImage} alt="" />
             <h4>DeFi</h4>
             <p>Track, Discover And Analyze The Latest DeFi Projects</p>
-            </div>
+            </motion.div>
             <div className='einpunk-feature'>
             <img src={AirdropImage} alt="" />
             <h4>Airdrop</h4>
