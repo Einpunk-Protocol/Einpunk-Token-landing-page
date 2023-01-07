@@ -2,23 +2,37 @@ import React, {useEffect} from 'react'
 import "./Roadmap.css"
 import {Tag} from 'antd'
 import { useInView } from 'react-intersection-observer'
-import {motion} from "framer-motion"
+import {motion, useAnimation} from "framer-motion"
 
 const Roadmap = () => {
-    const {ref, inView} =  useInView();
+    const {ref, inView} =  useInView({
+        threshold: 0.2
+    });
+
+    const animation = useAnimation();
+
     useEffect(() => {
+        if(inView){
+            animation.start({
+                x: 0,
+                transition: {
+                    type: "spring", duration: 1, bounce: 0.3
+                }
+            })
+        }
+        if(!inView){
+            animation.start({
+                x: "-100vw"
+            })
+        }
         console.log("UseEffect Hook, inView=", inView)
-    })
+    }, [inView, animation])
   return (
-    <div  className='roadmap-container'>
+    <div  className='roadmap-container'  ref={ref}>
         <h4 className='roadmap-text'>Roadmap</h4>
         <p className='roadmap-note'>Note: We are determined to follow through each project listed, within their given timeframes.</p>
         <motion.div
-        initial= {{x: "-50vw"}}
-        animate={{x: 0}}
-        transition={{type: "spring", duration: 1, bounce:0.3}}
-        viewport={{once: true, amount: 0.8}}
-        ref={ref}
+        animate={animation}
          className='roadmap-paletees'>
         <motion.div className='roadmap-paletee'>
             <h5>Phase 1</h5>
