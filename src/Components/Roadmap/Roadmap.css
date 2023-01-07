@@ -1,6 +1,7 @@
 .roadmap-container {
     padding-top: 30px;
     color: #FFF;
+    overflow-x: hidden;
 }
 
 .roadmap-text {
