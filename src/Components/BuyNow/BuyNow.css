@@ -4,8 +4,14 @@
 
 .dex-exchanges {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dex-exchange {
-    width: 200px;
+    width: 250px;
+}
+
+.dex-exchange img {
+    width: 120px;
 }
