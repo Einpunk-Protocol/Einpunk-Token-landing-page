@@ -15,7 +15,9 @@
 }
 
 .dex-exchange img {
-    width: 120px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
     display: block;
     margin: 0px auto;
 }
