@@ -3,7 +3,7 @@ import "./BuyNow.css"
 import uniSwapLogo from "../../Assets/images/uniswap.png"
 const BuyNow = () => {
   return (
-    <div>
+    <div className='buynow-container'>
         <div className='dex-exchanges'>
             <div className='dex-exchange'>
                 <img src={uniSwapLogo} alt="" />
