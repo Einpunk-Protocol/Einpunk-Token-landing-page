@@ -1,7 +1,7 @@
 import React from 'react'
 import "./HowToBuy.css"
 import {Tag} from 'antd'
-import howToBuyImage from "../../Assets/images/How to buy Illustration.png"
+import howToBuyImage from "../../Assets/images/uniswap_mockup.png"
 
 const HowToBuy = () => {
   return (
