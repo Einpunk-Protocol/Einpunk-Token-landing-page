@@ -10,7 +10,7 @@ const HeroPage = () => {
     const [messageApi, contextHolder] = message.useMessage()
 
     let url = "https://t.me/+cBzvl0ZWRkxjYmMx"
-    let contractAddress = "0xD7ACd2a9FD159E69Bb102A1ca21C9a3e3A5F771B"
+    let contractAddress = "0x89a081999249407C1153e135A2Af7d323419A66A"
     
     const [copy, setCopy] = useState("")
     const contractInput = useRef(null)
