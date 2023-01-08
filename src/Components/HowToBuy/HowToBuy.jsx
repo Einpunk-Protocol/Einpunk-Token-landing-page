@@ -25,7 +25,7 @@ const HowToBuy = () => {
                Click the icon with the dials at the top left, then set the<br/> slippage tolerance to 11-12%, and close that interface once <br/>done.
                </h5>
                <h5><Tag color="#269AFE" className="tag">6</Tag>
-               Put the amount of BNB you wish to spend in the "From" box, and <br/>press the "Swap" button.
+               Put the amount of ETH you wish to spend in the "From" box, and <br/>press the "Swap" button.
                </h5>
                <h5><Tag color="#269AFE" className="tag">7</Tag>
                Click the swap button & confirm the transaction … <br/>Congratulations you now own Einpunk Token!
