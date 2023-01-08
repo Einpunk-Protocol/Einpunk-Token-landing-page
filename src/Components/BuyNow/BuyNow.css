@@ -5,3 +5,7 @@
 .dex-exchanges {
     display: flex;
 }
+
+.dex-exchange {
+    width: 200px;
+}
