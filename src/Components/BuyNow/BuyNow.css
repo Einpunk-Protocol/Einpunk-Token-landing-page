@@ -9,8 +9,12 @@
 
 .dex-exchange {
     width: 250px;
+    border: 1px rgba(255, 255, 255, 0.1) solid;
+    border-radius: 16px;
 }
 
 .dex-exchange img {
     width: 120px;
+    display: block;
+    margin: 0px auto;
 }
