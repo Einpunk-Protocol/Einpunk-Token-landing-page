@@ -45,8 +45,8 @@ const HeroPage = () => {
             </div>
             <div className='heropage-image'>
                 <motion.img 
-                animate={{y: 10}}
-                transition={{repeat: Infinity, duration: 2, bounce: 0.3}}
+                animate={{y: -10}}
+                transition={{duration: 6, type: "spring"}}
                 src={EinpunkIllustration} alt="Einpunk Illustration" loading='lazy'/>
             </div>
         </div>
