@@ -5,6 +5,7 @@
 .dex-exchanges {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 30px;
 }
 
@@ -35,4 +36,10 @@
 
 .dex-exchange a:hover {
     cursor: pointer;
+}
+
+@media(max-width: 600px) {
+    .dex-exchanges {
+        flex-direction: column;
+    }
 }
