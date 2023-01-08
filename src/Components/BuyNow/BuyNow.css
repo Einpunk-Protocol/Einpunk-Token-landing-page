@@ -1,3 +1,7 @@
 .buynow-container {
     padding: 50px;
 }
+
+.dex-exchanges {
+    display: flex;
+}
