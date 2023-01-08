@@ -1,7 +1,6 @@
 import React from 'react'
 import "./HowToBuy.css"
 import {Tag} from 'antd'
-import howToBuyImage from "../../Assets/images/uniswap_mockup.png"
 
 const HowToBuy = () => {
   return (
@@ -31,9 +30,9 @@ const HowToBuy = () => {
                Click the swap button & confirm the transaction … <br/>Congratulations you now own Einpunk Token!
                </h5>
             </div>
-            <div className='how-to-buy-image'>
+            {/* <div className='how-to-buy-image'>
                 <img src={howToBuyImage} alt="How to Buy Illustration" />
-            </div>
+            </div> */}
         </div>
     </div>
   )
