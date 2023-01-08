@@ -16,7 +16,7 @@ const BuyNow = () => {
             <div className='dex-exchange'>
                 <img src={pancakeSwapLogo} alt="" />
                 <motion.a
-                whileHover={{scale: 1.1}}
+                whileTap={{scale: 1.1}}
                  href="https://pancakeswap.finance/swap?chain=eth&outputCurrency=0x89a081999249407C1153e135A2Af7d323419A66A">Buy Einpunk Now</motion.a>
             </div>
             
