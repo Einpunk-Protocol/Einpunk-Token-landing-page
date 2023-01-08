@@ -1,5 +1,6 @@
 import React from 'react'
 import "./BuyNow.css"
+import {motion} from "framer-motion"
 import uniSwapLogo from "../../Assets/images/uniswap.png"
 import pancakeSwapLogo from "../../Assets/images/pancakeswaplogo.png"
 const BuyNow = () => {
