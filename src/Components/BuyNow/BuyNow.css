@@ -5,6 +5,7 @@
 .dex-exchanges {
     display: flex;
     justify-content: center;
+    gap: 30px;
 }
 
 .dex-exchange {
