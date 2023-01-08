@@ -26,10 +26,11 @@
     color: #fff;
     background: #269AFE;
     padding: 6px;
+    border-radius: 16px;
     width: 130px;
     text-decoration: none;
     display: block;
-    margin: 30px auto;
+    margin: 15px auto;
 }
 
 .dex-exchange a:hover {
