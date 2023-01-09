@@ -18,7 +18,9 @@
     width: 45%;
 }
 
-.heropage-text .colored {}
+.heropage-text .colored {
+    color: #269AFE;
+}
 
 .heropage-text h2 {
     font-size: 40px;
