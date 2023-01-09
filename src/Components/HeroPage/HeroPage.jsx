@@ -1,19 +1,13 @@
-import React, {useRef, useState} from 'react'
+import React, {useRef, useState, useEffect} from 'react'
 import {message} from "antd"
 import "./HeroPage.css"
 import {FaClone} from "react-icons/fa"
 import Line from "../../Assets/images/Line.png"
 import EinpunkIllustration from "../../Assets/images/einpunk illustration.png"
-import {motion, useAnimation} from "framer-motion"
-import { useInView } from 'react-intersection-observer'
+import {motion} from "framer-motion"
 
 const HeroPage = () => {
-    const {ref, inView} =  useInView({
-        threshold: 0.2
-    });
 
-    const animation = useAnimation();
-    
     const [messageApi, contextHolder] = message.useMessage()
 
     let url = "https://t.me/+cBzvl0ZWRkxjYmMx"
@@ -35,9 +29,13 @@ const HeroPage = () => {
   return (
     <div className='heropage-container'>
         <img src={Line} alt=""  className='line'/>
-        <div className='heropage-details'>
-            <div className='heropage-text'>
-                <h2>The World's Fastest Growing <br/> <span className='colored'>Token</span> Protocol</h2>
+        <div
+         className='heropage-details'>
+            <div className='heropage-text' >
+                <motion.h2
+                animate={{y: 10}}
+                transition={{duration: 6, type: "spring"}}
+                >The World's Fastest Growing <br/> <span className='colored'>Token</span> Protocol</motion.h2>
                 <p><span>Einpunk Token</span> is a unique deflationary token with a 1% slippage, total supply of 1 million, 100% ownership renounced and Liquidity pool locked forever.</p>
                 <p>31% of Einpunk Tokens have been burnt so far.
                 The goal of the project is to establish a NFT club (Einpunk Club), where users can hold, buy and sell unique NFTs on a p2p platform.
