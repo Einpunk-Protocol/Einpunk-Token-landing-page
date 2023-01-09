@@ -8,6 +8,12 @@ import {motion, useAnimation} from "framer-motion"
 import { useInView } from 'react-intersection-observer'
 
 const HeroPage = () => {
+    const {ref, inView} =  useInView({
+        threshold: 0.2
+    });
+
+    const animation = useAnimation();
+    
     const [messageApi, contextHolder] = message.useMessage()
 
     let url = "https://t.me/+cBzvl0ZWRkxjYmMx"
