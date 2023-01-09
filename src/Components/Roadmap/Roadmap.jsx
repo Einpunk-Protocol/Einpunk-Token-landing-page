@@ -28,7 +28,6 @@ const Roadmap = () => {
                 }
             })
         }
-        console.log("UseEffect Hook, inView=", inView)
     }, [inView])
   return (
     <div  className='roadmap-container'  ref={ref}>
