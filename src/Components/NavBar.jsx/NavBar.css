@@ -16,6 +16,10 @@
     display: flex;
 }
 
+.menu-list button:hover {
+    cursor: pointer;
+}
+
 .menu-bar {
     color: #FFF;
     font-size: 19px;
