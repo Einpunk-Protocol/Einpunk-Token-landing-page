@@ -34,7 +34,7 @@ const About = () => {
             className='einpunk-feature'>
             <img src={DefiImage} alt="" />
             <h4>DeFi</h4>
-            <p>Track, Discover And Analyze The Latest DeFi Projects</p>
+            <p>Einpunk will be a token for our DeFi Protocol</p>
             </motion.div>
             <motion.div 
             whileHover={{ y: -30 }}
