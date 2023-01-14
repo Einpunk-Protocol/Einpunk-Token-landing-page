@@ -42,7 +42,7 @@ const About = () => {
             className='einpunk-feature'>
             <img src={AirdropImage} alt="" />
             <h4>Airdrop</h4>
-            <p>Sign Up For Free Einpunk Airdops</p>
+            <p>We will be Airdropping some Einpunk token for the Community we will release some tasks needed to claim the Airdrop</p>
             </motion.div>
         </div>
     </div>
