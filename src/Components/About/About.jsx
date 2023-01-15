@@ -17,7 +17,7 @@ const About = () => {
              className='einpunk-feature'>
             <img src={DappsImage} alt="" />
             <h4>Dapps</h4>
-            <p>The dev team will be looking into develop amazing usecases for Einpunk token and the Community e.g Einpunk Exchange</p>
+            <p>The dev team will be looking into develop amazing use cases for Einpunk token and the Community e.g Einpunk Exchange</p>
             </motion.div>
 
             <motion.div whileHover={{ y: -30 }}
