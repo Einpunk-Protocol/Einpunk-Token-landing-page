@@ -1,8 +1,9 @@
 # Node.js
-- task: Docker@2
+- task: AzureIoTEdge@2
   inputs:
-    command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
+    action: 'Build module images'
+    templateFilePath: 'deployment.template.json'
+    defaultPlatform: 'amd64'
 # Build a general Node.js project with npm.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
