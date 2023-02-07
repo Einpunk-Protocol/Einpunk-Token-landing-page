@@ -1,72 +1,37 @@
-# Getting Started with Create React App
+## What Is Einpunk Protocol (EinpunkUSD)?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Einpunk Protocol is a decentralized application platform designed to make apps usable on the web. The network runs on a Proof-of-Stake (PoS) consensus mechanism called Nightshade, which aims to offer scalability and stable fees.
 
-## Available Scripts
+Einpunk is the native utility token that is used for:
 
-### `yarn`  || `npm install`
+* Fees for processing transactions and storing data.
+* Running validator nodes on the network via staking Einpunk tokens.
+* Used for governance votes to determine how network resources are allocated.
 
-In the project directory, you can run:
+Einpunk tools include: 
 
-### `npm start `     || `yarn start`
+* Einpunk SDKs which includes standard data structures and testing tools for Rust and AssemblyScript. 
+* Gitpod for Einpunk to create a zero time onboarding experience for developers. 
+* Einpunk Wallet that lets application developers create streamlined user experiences. 
+* Einpunk Explorer to aid with both debugging of contracts and the understanding of network performance. 
+* Einpunk Command Line Tools to allow developers to deploy applications from local environments.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How Many Einpunk Coins Are There in Circulation?
 
-### `npm test`      || `yarn test`
+Einpunk Protocol launched its mainnet on January 7, 2023 with 1 million Einpunk tokens created at genesis. 5% of additional supply is issued each year to support the network as epoch rewards, of which 90% goes to validators (4.5% total) and 10% to the protocol treasury (0.5% total). 30% of transaction fees are paid out as rebates to contracts which interact with a transaction, while the remaining 70% are burned.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`      || `yarn run build`
+### Who Are the Founders of Einpunk Protocol?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Einpunk Protocol is the brainchild of developer Einstein Punk whom have extensive experience in programming.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Where Can I Buy Einpunk Protocol (Einpunk)?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+EIPUNKUSD is available for trading on a growing number of exchanges, with cryptocurrency and [ETH](https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x89a081999249407c1153e135a2af7d323419a66a) pairs currently available.
 
-### `npm run eject`      ||    `yarn run eject`
+[Pancakeswap (Einpunk/BUSD)](https://pancakeswap.finance/swap?chain=bsc&inputCurrency=0xE933f2ea66764af369B3D5Ee7295a0B976387c0c&outputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56), while [[Pancakeswap (Einpunk/CAKE)(https://pancakeswap.finance/swap?chain=bsc&inputCurrency=0xE933f2ea66764af369B3D5Ee7295a0B976387c0c&outputCurrency=0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82) also offers [Pancakeswap (Einpunk/BNB)(https://pancakeswap.finance/swap?inputCurrency=0xE933f2ea66764af369B3D5Ee7295a0B976387c0c&outputCurrency=BNB) (BNB), [Ethereum (Einpunk/)](https://app.uniswap.org/#/swap?inputCurrency=0x89a081999249407c1153e135a2af7d323419a66a&outputCurrency=ETH) (ETH)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Einpunk Protocol © 2023 by Einstein Punk is licensed under CC BY-SA 4.0 
