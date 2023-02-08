@@ -6,6 +6,7 @@ import pancakeSwapLogo from "../../Assets/images/pancakeswaplogo.png"
 const BuyNow = () => {
   return (
     <div className='buynow-container'>
+      <h3>ETH Network</h3>
         <div className='dex-exchanges'>
             <div className='dex-exchange'>
                 <img src={uniSwapLogo} alt="" />
