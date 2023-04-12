@@ -1,0 +1,116 @@
+.heropage-container {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.heropage-details {
+    display: flex;
+    gap: 5%;
+    margin-top: 40px;
+}
+
+.heropage-text {
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 45%;
+}
+
+.heropage-text .colored {
+    color: #269AFE;
+}
+
+.heropage-text h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFF;
+}
+
+.heropage-text p {
+    color: #FFF;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.heropage-text p span {
+    color: #269AFE;
+    font-weight: 500;
+}
+
+.line {
+    margin: auto;
+    display: block;
+}
+
+.heropage-image img {
+    width: 650px;
+}
+
+.heropage-text a {
+    text-decoration: none;
+    background: #269AFE;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.heropage-text .contract-input {
+    margin-bottom: 40px;
+}
+
+.heropage-text .contract-input input {
+    width: 370px;
+    height: 20px;
+    color: #FFF;
+    background: transparent;
+    border: none;
+}
+
+.heropage-text .contract-input input:focus {
+    outline: none;
+}
+
+.heropage-text .contract-input h5 {
+    color: #FFF;
+}
+
+.heropage-text .copy-icon {
+    color: rgb(111, 110, 110);
+    transition: ease-in-out .5s;
+    margin-left: -30px;
+}
+
+.heropage-text .copy-icon:hover {
+    cursor: pointer;
+    color: #269AFE;
+}
+
+@media(max-width: 600px) {
+    .heropage-text {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .heropage-text h2 {
+        font-size: 25px;
+    }
+    .heropage-image img {
+        width: 360px;
+        margin-top: 30px;
+    }
+    .heropage-text p {
+        font-size: 13px;
+    }
+    .line {
+        display: none;
+    }
+    .heropage-container {
+        height: 100%;
+    }
+    .heropage-details {
+        flex-wrap: wrap;
+    }
+}

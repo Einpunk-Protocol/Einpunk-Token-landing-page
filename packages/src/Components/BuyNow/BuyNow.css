@@ -1,0 +1,52 @@
+.buynow-container {
+    padding: 50px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.dex-exchanges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.buynow-container>h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.dex-exchange {
+    width: 250px;
+    border: 1px rgba(255, 255, 255, 0.1) solid;
+    border-radius: 16px;
+}
+
+.dex-exchange img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+.dex-exchange a {
+    color: #fff;
+    background: #269afe;
+    padding: 6px;
+    border-radius: 16px;
+    width: 130px;
+    text-decoration: none;
+    display: block;
+    margin: 15px auto;
+}
+
+.dex-exchange a:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .dex-exchanges {
+        flex-direction: column;
+    }
+}

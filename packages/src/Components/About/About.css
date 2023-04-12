@@ -1,0 +1,43 @@
+.about-container {
+    padding: 50px;
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.about-container h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+}
+
+.einpunk-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.einpunk-feature {
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    border: 1px rgba(255, 255, 255, 0.1) solid;
+    border-radius: 16px;
+}
+
+.einpunk-feature:hover {
+    cursor: pointer;
+}
+
+.einpunk-feature img {
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 600px) {
+    .about-container h3 {
+        font-size: 23px;
+    }
+}
