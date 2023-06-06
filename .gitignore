@@ -1,26 +1,23 @@
-.slack
-.env
-.git-completion.bash
-.servertype-prompt.sh
-.zshrc
-.ssh
-.bash_profile
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
 .DS_Store
-.bashrc
-.einpunk_profile
-.einpunk_profile.save
-.github/
-.gnupg/
-.npm/
-.profile
-AB4DBE4C Revocation certificate.asc
-"Einpunk Protocol Finance Inc (AB4DBE4C) \342\200\223 Public.asc"
-Einpunk.rb
-einpunk.finance R3.cer
-einpunk_profile.txt
-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
-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.pub
-ngrok
-.viminfo
-Einpunk Protocol Finance Inc (AB4DBE4C) – Public
-.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
